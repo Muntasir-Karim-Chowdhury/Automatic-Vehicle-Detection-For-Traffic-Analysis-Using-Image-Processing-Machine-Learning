@@ -17,7 +17,7 @@ In addition to these features, the project also uses other machine learning tech
 Data augmentation: The training dataset is augmented using various techniques, such as random cropping, flipping, and rotating the images. This contributes to the enhancement of the YOLO Version 4 model's generalizability.
 Transfer learning: The YOLO Version 4 model is pre-trained on a dataset of images of various objects, such as cars, trucks, buses, and motorcycles. This contributes to the enhancement of the model's efficacy in the task of vehicle detection.
 
-The following are several prospective uses of the system:
+#### The following are several prospective uses of the system:
 
 Traffic monitoring: The system is capable of monitoring highways and routes for traffic conditions. By utilizing this data, obstruction can be decreased and traffic flow can be enhanced.
 
