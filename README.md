@@ -2,13 +2,14 @@
 This project was done during my final year thesis. This project employs OpenCV, YOLOv4, and Arduino Uno in order to construct a system for traffic analysis that detects vehicles from prerecorded videos or real time. OpenCV is utilized by the system to perform image processing and machine learning operations, whereas YOLOv4 is employed to ensure precise vehicle detection. The system operates on Arduino Uno, an inexpensive and multifunctional microcontroller board, which grants it accessibility to a broad spectrum of users. It is used tc control three LEDs (Green, Yellow & Red) to indicate the presence of vehicles just like traffic light in real life.
 
 This project includes some features related to image processing and machine learning
-###Image processing:
+
+### Image processing:
 
 Image resizing: Images are resized to 640x640 pixels prior to being input into the YOLO Version 4 model. This is implemented in order to enhance the model's efficacy.
 Color conversion: Prior to feeding the YOLO Version 4 model the converted images from the BGR to RGB color space, OpenCV is utilized to resize and convert the images. In order to train YOLO Version 4, which utilizes RGB images, it is critical to transform the images into RGB color space prior to inputting them into the model.
 Here, it is important to mention that OpenCV is used to display the video stream from the webcam or video file.
 
-###Machine learning:
+### Machine learning:
 
 Object detection: Vehicles are detected in the images utilizing the YOLO Version 4 model. The YOLO Version 4 is a deep learning model that was trained using an extensive dataset comprising vehicle images. The model is capable of accurately and in real time detecting vehicles.
 In addition to these features, the project also uses other machine learning techniques, such as:
