@@ -25,6 +25,17 @@ Counting vehicles: The system is capable of measuring the quantity of vehicles t
 
 Identification of vehicles: The system is capable of real-time vehicle identification. This data may be utilized for surveillance and security purposes.
 
+### Prerequisites
+
+Before using this project, make sure you have the following prerequisites installed:
+
+- Python (3.6 or higher)
+- OpenCV
+- NumPy
+- YOLOv4 model weights and configuration files
+- Serial communication library (PySerial) for communication with an Arduino board
+
+
 
 
 
