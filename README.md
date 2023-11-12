@@ -1,4 +1,4 @@
-# Automatic-Vehicle-Detection-For-Traffic-Analysis-Using-Image-Processing-Machine-Learning
+# Automatic-Vehicle-Detection-and-Counting-System-For-Traffic-Analysis-Using-Image-Processing-Machine-Learning
 This project was done during my final year thesis. This project employs OpenCV, YOLOv4, and Arduino Uno in order to construct a system for traffic analysis that detects vehicles from prerecorded videos or real time. OpenCV is utilized by the system to perform image processing and machine learning operations, whereas YOLOv4 is employed to ensure precise vehicle detection. The system operates on Arduino Uno, an inexpensive and multifunctional microcontroller board, which grants it accessibility to a broad spectrum of users. It is used tc control three LEDs (Green, Yellow & Red) to indicate the presence of vehicles just like traffic light in real life.
 
 This project includes some features related to image processing and machine learning
